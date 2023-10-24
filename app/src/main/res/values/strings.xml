@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">assignment_2_mad_33</string>
+    <string name="java">Java</string>
+    <string name="python">Python</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="database">Data-Base</string>
+    <string name="c_java">\n\t\t\t<b>What is Java?</b>\n\n
+\tJava is a popular programming language, created in 1995.\n
+It is owned by Oracle, and more than 3 billion devices run Java.\n
+It is used for:\n
+->Mobile applications (specially Android apps)\n
+->Desktop applications\n
+->Web applications\n
+->Web servers and application servers\n
+->Games\n
+->Database connection\n
+->And much, much more!\n\n
+    \t\t<b>Features Of Java</b>\n\n
+    \t->Inspired by C and C++ Java is inspired by C and C++. ...\n
+\t->Object-Oriented. Java is a fully object-oriented language, unlike C++, which is semi-object-oriented\n
+\t->Platform Independent\n
+\t->Compiled and Interpreted\n
+\t->Multi-Threaded\n
+\t->Dynamic\n
+\t->Robust\n
+\t->Secure.</string>
+</resources>
