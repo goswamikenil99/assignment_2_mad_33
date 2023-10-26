@@ -3,7 +3,7 @@
     <string name="java">Java</string>
     <string name="python">Python</string>
     <string name="kotlin">Kotlin</string>
-    <string name="database">Data-Base</string>
+    <string name="database">Sql Light</string>
     <string name="c_java">\n\t\t\t<b>What is Java?</b>\n\n
 \tJava is a popular programming language, created in 1995.\n
 It is owned by Oracle, and more than 3 billion devices run Java.\n
@@ -24,4 +24,49 @@ It is used for:\n
 \t->Dynamic\n
 \t->Robust\n
 \t->Secure.</string>
+    <string name="c_python">\n\t\t\t<b>What is Python?</b>\n\n
+\tPython is a popular programming language. \n\tIt was created by Guido van Rossum, and released in 1991.\n\n
+
+It is used for:\n
+
+->web development (server-side)\n
+->software development\n
+->mathematics\n
+->system scripting.\n\n
+    \t\t<b>Features Of Python</b>\n\n
+            ->Free and Open Source\n
+->Easy to code\n
+->Easy to Read\n
+->Object-Oriented Language\n
+->GUI Programming Support\n
+->High-Level Language\n
+->Large Community Support\n
+->Easy to Debug.</string>
+    <string name="c_kotlin">
+        \t\t\t<b>What is Kotlin?</b>\n\n
+        Kotlin is a statically typed, object-oriented programming language.\n that is interoperable with the Java virtual machine (JVM), \nJava Class Libraries and Android.\n
+        The Kotlin programming language was originally designed to improve\n the Java programming language and is often used in conjunction with Java.\n Despite being the preferred development language of Android\n Kotlin interoperability with Java has led it to be used with many application types.\n
+        \n\t\t<b>Features Of Kotlin</b>\n\n
+        ->Concise code\n
+->Null safety\n
+->essive code\n
+->rn features\n
+->roperability with Java\n
+->Script transpilation\n
+->Native conversion (Kotlin Native)
+    </string>
+    <string name="c_database">
+       \n\t\t\t<b>What is Sql Light?</b>\n\n
+SQLite is a software library that implements a self-contained, serverless, zero-configuration, transactional SQL database engine.\n SQLite is the most widely deployed SQL database engine in the world.\n The source code for SQLite is in the public domain.\n This tutorial will give you a quick start with SQLite and make you comfortable with SQLite programming.\n\n
+         \n\t\t<b>Features Of Sql Ligth</b>\n\n
+       ->Database For The Internet Of Things. SQLite is popular choice for the database engine in cellphones, PDAs, MP3 players, set-top boxes, and other electronic gadgets.\n SQLite has a small code footprint, makes efficient use of memory, disk space, and disk bandwidth, is highly reliable, and requires no maintenance from a Database Administrator.\n
+
+->Application File Format. Rather than using fopen() to write XML, JSON, CSV, or some proprietary format into disk files used by your application, use an SQLite database.\n You all avoid having to write and troubleshoot a parser, your data will be more easily accessible and cross-platform, and your updates will be transactional./n
+
+->Website Database. Because it requires no configuration and stores information in ordinary disk files\n SQLite is a popular choice as the database to back small to medium-sized websites.\n
+
+->Stand-in For An Enterprise RDBMS. SQLite is often used as a surrogate for an enterprise RDBMS for demonstration purposes or for testing.\n SQLite is fast and requires no setup, which takes a lot of the hassle out of testing and which makes demos perky and easy to launch.
+
+
+    </string>
 </resources>

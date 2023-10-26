@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@drawable/gridiant">
    <com.google.android.material.card.MaterialCardView
        android:layout_width="300dp"
        android:layout_height="150dp"
@@ -117,5 +118,6 @@
             android:text="Visit"
             android:textStyle="bold" />
     </com.google.android.material.card.MaterialCardView>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
