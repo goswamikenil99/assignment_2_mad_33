@@ -12,8 +12,8 @@
        app:layout_constraintStart_toStartOf="parent"
        app:layout_constraintTop_toTopOf="parent"
        android:id="@+id/m_java"
-       android:elevation="20dp"
-       app:cardCornerRadius="15dp"
+       android:elevation="30dp"
+       app:cardCornerRadius="25dp"
        android:layout_margin="20dp">
        <TextView
            android:layout_width="wrap_content"
@@ -32,7 +32,16 @@
            android:gravity="center"
            app:iconGravity="end"
            android:text="Visit"
-           android:textStyle="bold" />
+           android:textStyle="bold"
+           android:backgroundTint="#545D5E"/>
+
+       <ImageView
+           android:id="@+id/imageView2"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           app:srcCompat="@drawable/java"
+           android:scaleType="fitXY"
+           android:elevation="-30dp"/>
    </com.google.android.material.card.MaterialCardView>
     <com.google.android.material.card.MaterialCardView
         android:layout_width="300dp"
@@ -40,8 +49,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/m_java"
         android:id="@+id/m_python"
-        android:elevation="20dp"
-        app:cardCornerRadius="15dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="25dp"
         android:layout_margin="20dp">
         <TextView
             android:layout_width="wrap_content"
@@ -60,7 +69,16 @@
             android:gravity="center"
             app:iconGravity="end"
             android:text="Visit"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:backgroundTint="#545D5E"/>
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/py1"
+            android:scaleType="fitXY"
+
+            android:elevation="-30dp"/>
     </com.google.android.material.card.MaterialCardView>
     <com.google.android.material.card.MaterialCardView
         android:layout_width="300dp"
@@ -68,8 +86,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/m_python"
         android:id="@+id/m_kotlin"
-        android:elevation="20dp"
-        app:cardCornerRadius="15dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="25dp"
         android:layout_margin="20dp">
         <TextView
             android:layout_width="wrap_content"
@@ -88,7 +106,16 @@
             android:gravity="center"
             app:iconGravity="end"
             android:text="Visit"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:backgroundTint="#545D5E"/>
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/kotlin"
+            android:scaleType="fitXY"
+
+            android:elevation="-30dp"/>
     </com.google.android.material.card.MaterialCardView>
     <com.google.android.material.card.MaterialCardView
         android:layout_width="300dp"
@@ -96,15 +123,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/m_kotlin"
         android:id="@+id/m_database"
-        android:elevation="20dp"
-        app:cardCornerRadius="15dp"
+        android:elevation="30dp"
+        app:cardCornerRadius="25dp"
         android:layout_margin="20dp">
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/database"
             android:theme="@style/text_view"
-            android:layout_margin="10dp"/>
+            android:layout_margin="10dp"
+            android:textColor="@color/black"/>
         <com.google.android.material.button.MaterialButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -116,7 +144,16 @@
             android:gravity="center"
             app:iconGravity="end"
             android:text="Visit"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:backgroundTint="#545D5E"/>
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:srcCompat="@drawable/d"
+            android:scaleType="fitXY"
+            android:alpha=".9"
+            android:elevation="-30dp" />
     </com.google.android.material.card.MaterialCardView>
 
 
